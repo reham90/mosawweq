@@ -743,6 +743,9 @@ html[dir="rtl"] .search-button i{
   position: relative;
   margin-bottom: 10px;
 }
+.home-block a{
+  margin-bottom: 0 !important;
+}
 .home-block figure{
   margin: 0;
 }
@@ -753,19 +756,19 @@ html[dir="rtl"] .search-button i{
   flex-direction: column;
 }
 .home-details a{
-  color: var(--main-color);
-  font-size: 16px;
-  font-family: "Cairo-Bold";
-  text-transform: capitalize;
+  color: var(--main-color) !important;
+  font-size: 16px !important;
+  font-family: "Cairo-Bold" !important;
+  text-transform: capitalize !important;
   transition: 0.5s;
-  margin-top: 20px;
-  display: block;
-  margin-bottom: 18px;
-  text-align: start;
+  margin-top: 20px !important;
+  display: block !important;
+  margin-bottom: 18px !important;
+  text-align: start !important;
 }
 .home-details a:hover{
   text-decoration: none;
-  color: var(--main-hover);
+  color: var(--main-hover) !important;
 }
 .home-discription{
   display: flex;
@@ -1832,9 +1835,13 @@ ol.breadcrumb li:not(.active):after {
 .more-comments{
   width: 100%;
 }
-.advertiser-info-section h3 span{
+.advertiser-info-section a{
+  display: block !important;
+}
+.advertiser-info-section a span{
   display: block;
 }
+
 .contacting-advertiser-list{
   flex-wrap: wrap;
 }
@@ -2725,15 +2732,36 @@ outline: none;
   padding: 27px 30px 37px;
   margin-bottom: 32px;
 }
-.advertiser-info-section h3{
+.advertiser-info-section a{
   color: #999;
   font-size: 16px;
   font-family: "Cairo-Bold";
   margin: 0 0 8px;
   text-align: start;
+  transition: 0.5s;
+  display: flex;
+}
+.advertiser-info-section a:hover{
+  color: var(--main-hover);
+}
+.advertiser-info-section a span{
+  font-family: "Cairo-Regular" !important;
+}
+.advertiser-info-section h3{
+  text-align: start;
+    font-size: 18px;
+    color: var(--main-color);
+    font-family: 'Cairo-Bold';
+    margin: 8px 0 13px;
+}
+.mb49{
+ margin-bottom: 49px !important;
 }
 .advertiser-info-section h3 span{
-  font-family: "Cairo-Regular" !important;
+  display: block;
+  font-family: 'Cairo-Regular' !important;
+  font-size: 16px;
+  margin-top: 10px;
 }
 .rating-list{
   list-style: none;
@@ -2776,7 +2804,7 @@ outline: none;
 }
 .contacting-advertiser-list li a{
   padding: 0 15px;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
   height: 40px;
@@ -3775,9 +3803,10 @@ html[dir="ltr"] .nav-foot-link{
 .attachments-grid {
   grid-template-columns: repeat(2,1fr) !important;
 }
-.advertiser-info-section h3{
+.advertiser-info-section a{
   display: flex;
 }
+
 .contacting-advertiser-list{
   flex-wrap: nowrap;
 }
