@@ -910,6 +910,79 @@ html[dir="rtl"] .search-button i{
 .register-btn:hover{
   background-color: var(--main-color) !important;
 }
+.mb20{
+  margin:0 0 17px !important;
+}
+.note{
+  text-align: center;
+  display: block;
+  color: var(--main-color);
+  margin: 0 0 34px;
+  font-size: 16px;
+}
+.terms-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 35px;
+}
+.terms-list li{
+  color: #999;
+  font-size: 16px;
+  text-align: start;
+  margin-bottom: 8px;
+}
+.terms-list li::before{
+  content: " - ";
+}
+.terms-section{
+  padding: 37px 67px 73px;
+  background-color: var(--sec-color);
+  margin-bottom: 30px;
+}
+.terms-section .checkbox{
+  justify-content: center;
+}
+.terms-section .checkbox input{
+ 
+  
+    background-color: var(--sec-main-color);
+    border: 0;
+    outline: none;
+  
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #999;
+    font-family: "Cairo-SemiBold";
+   
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.accept-btn{
+  padding: 0 30px;
+  background-color: var(--main-color);
+  color: var(--sec-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Cairo-Bold";
+  height:40px ;
+  border: 0;
+  outline: none;
+  transition: 0.5s;
+  margin: 0 auto ;
+}
+.accept-btn:hover{
+  background-color: var(--main-hover);
+}
+.accept-btn:focus{
+  outline: none;
+}
 
 @media (max-width: 991px) {
  
@@ -923,7 +996,9 @@ html[dir="rtl"] .search-button i{
  .home-details span{
   margin-bottom: 20px;
  }
-
+ .terms-section{
+  padding: 37px 20px 73px;
+ }
  
 }
 /*                      sign-in-page                             */
@@ -1064,149 +1139,12 @@ transition: 0.5s;
 
 
 
-/*                              project-section                    */
-.project-section {
-  padding: 108px 0 117px;
-  background-image: url(../images/projects-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.fot-logo-2 img{
-  width: 63px;
-}
-.fot-logo-1 img{
-  width: 50px;
-}
-.projects-record{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
 
 
-}
-.projects-record figure{
-  margin: 0;
-}
-
-.re-title{
-  color: #fff;
-  font-size: 36px;
-  text-transform: capitalize;
-  margin: 18px 0 20px;
-  text-align: start;
-  font-weight: bold;
-}
-.rec-1 span{
-  font-size: 20px;
-  color:#fff;
-  text-align: start;
-  display: block;
-  margin-bottom: 33px;
-}
-.img-block{
-  position: relative;
-  overflow: hidden;
- 
-}
-.img-block:hover .services-img {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-}
-.pro-cover{
-  position: absolute;
-   background-color: rgba(28, 37, 51,0.6);
-   bottom: 0;
-   left:0;
-   right:0;
-   top:0;
-   justify-content: center;
-   transition: 0.5s;
-   display: flex;
-   align-items: center;
-  z-index: 99;
-   cursor: pointer;
-  
-   visibility: hidden;
-   opacity: 0;
-   transition: 0.5s;
-}
-.img-block:hover .pro-cover{
-  visibility: visible;
-  opacity: 1;
-}
-.pro-cover i{
-  color: #fff;
-  font-size: 36px;
-}
-
-.more-btn{
-  width: 141px;
-  height: 43px;
-  border-radius: 20px;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--main-color);
-  font-size: 14px;
-  text-decoration: none;
-text-transform: capitalize;
-font-weight: 600;
-transition: 0.5s;
-  
-}
-.more-btn:hover{
-  background-color: var(--main-hover);
-  color: var(--main-color);
-  text-decoration: none;
-}
 
 
-@media (max-width: 767px) {
-  .project-section {
-    padding:30px 0;
-  }
-  .projects-record{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px;
 
-  
-  
-  }
-  .contact-section{
-    background-position: center !important;
-    padding: 60px 0 !important;
-  }
-  .contact-section p{
-    font-size: 20px !important;
-    text-align: start !important;
-  }
- 
-  
-}
-/*                              project-section                    */
 
-/*                              brands-section                    */
-.brands{
-  text-align: center;
-  padding: 85px 0 107px;
-}
-.brands span{
-  color: #4a4b4c;
-  font-size: 18px;
-  margin:0 auto 25px;
-  display: block;
-}
-.brands-record{
-  display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-gap: 30px;
-  margin-top: 65px;
-  align-items: baseline;
-}
-
-/*                              brands-section                    */
 
 /*                              contact-section                    */
 .contact-section{

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>المسوق الإفتراضي / تسجيل دخول</title>
+    <title>المسوق الإفتراضي / إضافة إعلان</title>
     <link rel="icon" href="images/fav.png" type="image/png" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/line-awesome.min.css" />
@@ -32,7 +32,7 @@
    
     <div class="search-bar ">
       <figure class="img-logo">
-        <a href="#"><img src="images/logo.png" class="img-fluid" /></a>
+        <a href="index.html"><img src="images/logo.png" class="img-fluid" /></a>
       </figure>
         
       <div class="search-select-part">
@@ -82,18 +82,32 @@
              
               <a href="index-en.html" class="language-anchor">English</a>
             </div>
-         
+          
+          
         </div>
 
-        <a href="sign-in.html" class="sign">
-          <button class="dropbtn">
-            <i class="las la-user icon"></i>
-            <span>تسجيل دخول</span>
+        <a href="#" class="sign">
+          <button class="dropbtn m0">
+            <i class="las la-bell"></i>
+            <span class="notification"></span>
           </button>
          </a>
-      
 
-         <a href="add-adv.html" class="link-adv-btn">
+        <div class="dropdown">
+          <button class="dropbtn">
+            <i class="las la-user icon"></i>
+            <span>حسابي <i class="las la-angle-down arrow-down-dropdown"></i> </span>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">حسابي</a>
+            <a href="#">تسجيل خروج</a>
+          </div>
+        </div>
+
+       
+       
+
+        <a href="add-adv.html" class="link-adv-btn">
           <button class="add-adv-btn"><i class="las la-plus"></i> إضافة إعلان</button>
         </a>
 
@@ -109,7 +123,7 @@
      
      
       <div class="navgition">
-      
+       
         <ul class="big-menu list-unstyled">
           <li class="search-by-map">
             <i class="las la-map"></i> 
@@ -180,11 +194,8 @@
 
     <!-- header section     -->
     <!--content-section -->
-   
-   
-   
-   <div class="container">
-      <!-- breadcrumb section -->
+    <div class="container">
+        <!-- breadcrumb section -->
    <div class="breadcrumb-sec breadcrumb-container">
    
      
@@ -192,9 +203,10 @@
       <li class="item-home">
         <a class="bread-link bread-home aFixx" href="index.html">الرئيسية</a>
       </li>
+     
    
       <li class="active item-23">
-        <span class="bread-current">تسجيل دخول</span>
+        <span class="bread-current">إضافة إعلان</span>
       </li>
     </ol>
  
@@ -203,46 +215,66 @@
 
  <!-- end breadcrumb section -->
 
- <div class="add-adv-block">
+
  
-  <div class="add-adv-form">
-<h2 class="form-title">
- تسجيل دخول
-</h2>
 
-  
-  <input type="text" placeholder="اسم المستخدم" class="sign-inputs">
-
-  <div class="map-input">
-    <input type="password" class="my-input" placeholder="كلمة المرور">
-   <button>
-    <i class="las la-eye-slash"></i>
-    </button>
-  </div>
-
-  <a href="forget-password.html" class="forget-pass">هل نسيت كلمة المرور ؟</a>
-  
-  <button  class="submit-adv">دخول</button>
-  <a href="register.html">
-    <button  class="submit-adv register-btn">تسجيل حساب جديد</button>
-  </a>
  
-  
 
-     
+  <!-- terms-section -->
+  
+<div class="terms-section">
+  <h2 class="form-title mb20">
+   شروط إضافة الإعلان
+    </h2>
+<span class="note">
+  مخالفة شروط المسوق العقاري تعرضك للإيقاف دون سابق إنذار
+</span>
+ <ul class="terms-list">
+  <li>
+    يقر المعلن بأحقية الإعلان والأهلية القانونية لذلك .
+  </li>
+  <li>
+    إرفاق صور حقيقية للعقار وليس لنماذج أو مخططات .
+  </li>
+  <li>
+    الدقة في تحديد الموقع وكتابة تفاصيل الإعلان ومعلوماته .
+  </li>
+  <li>
+    تحديد السعر إلزامي, ولا يسمح بوضع السوم .
+  </li>
+  <li>
+    عدم تكرار الإعلان والإكتفاء بالتحديث .
+  </li>
+  <li>
+    يجب إغلاق الإعلان مباشرة بعد تأجير العقار أو بيعه .
+  </li>
+  <li>
+    مطابقة الإعلان الأحكام والأنظمة الداخلية ومسؤولية المعلن التامة عن ذلك .
+  </li>
+  <li>
+    يتعهد المعلن بأنه يعمل مسوق مستقل أو مكتب عقاري وأنه غير تابع أو موظف لأي شركة عقارية أو مطور عقاري, ويقر بتحمله كافة المسؤوليات إذا تبين خلاف ذلك .
+  </li>
+ </ul>
+
+ <div class="checkbox checkbox-block mb27">
+  <input type="checkbox"  name="" value="">
+  <label for="accept" class="accept"> لقد قرأت <a href="terms-and-conditions.html">الشروط والأحكام</a></label>
+</div>
+
+<button class="accept-btn">
+  أتعهد وأوافق على الشروط
+</button>
+          
+</div>
+  <!-- terms-section -->
+
+ 
+
+    </div>
    
-
-
- 
-
- 
-
-
-  </div>
- 
- </div>
-   </div>
     <!-- content-section -->
+   
+   
   
     <!-- footer section -->
     <footer>
@@ -252,7 +284,7 @@
         <div class="footer-cont">
           <div class="row">
             <div class="col-md-4  col-xs-12">
-              <a href="#">
+              <a href="index.html">
                 <figure>
                   <img src="images/logo.png" alt="logo">
                 </figure>
@@ -400,18 +432,27 @@
      <!-- mobile show icons -->
      <div class="mobile-show-icons fixed-bottom">
       <div class="container">
-        <ul class="mobile-icons">
+        <ul class="mobile-icons mobile-icons-2">
           <li>
             <a href="add-adv.html" class="link-adv-btn">
               <button class="add-adv-btn"><i class="las la-plus"></i> إضافة إعلان</button>
             </a>
           </li>
+          <li>
+            <a href="#" class="sign">
+              <button class="dropbtn m0">
+                <i class="las la-bell"></i>
+                <span class="notification"></span>
+                <p>الإشعارات</p>
+              </button>
+             </a>
+          </li>
 
           <li>
-           <a href="sign-in.html" class="sign">
+           <a href="#" class="sign">
             <button class="dropbtn">
               <i class="las la-user icon"></i>
-              <span>تسجيل دخول</span>
+              <span>حسابي</span>
             </button>
            </a>
               
@@ -434,7 +475,7 @@
               </span>
               <span class="search-span">البحث</span>
             </a>
-          
+           
            
         
             </div>
@@ -446,13 +487,13 @@
      </div>
  
      <!-- mobile-show-icons -->
-   
+
+
     <!-- arrow to top -->
     <a class="arrow-top">
       <i class="las la-long-arrow-alt-up"></i>
     </a>
     <!-- arrow to top -->
-
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>

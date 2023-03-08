@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>the virtual marketer/ register</title>
+    <title>the virtual marketer/ add advertisement </title>
     <link rel="icon" href="images/fav.png" type="image/png" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/line-awesome.min.css" />
@@ -32,7 +32,7 @@
    
     <div class="search-bar ">
       <figure class="img-logo">
-        <a href="#"><img src="images/logo.png" class="img-fluid" /></a>
+        <a href="index-en.html"><img src="images/logo.png" class="img-fluid" /></a>
       </figure>
         
       <div class="search-select-part">
@@ -76,21 +76,32 @@
 
       <div class="lang-part mobile-lang-part">
         <div class="lang-section">
-         
+          <div class="dropdown">
             <div class="lang-word ">
              
               <a href="index.html" class="language-anchor">العربية</a>
             </div>
           
-          
+          </div>
         </div>
 
-        <a href="sign-in-en.html" class="sign">
-          <button class="dropbtn">
-            <i class="las la-user icon"></i>
-            <span>sign in</span>
+        <a href="#" class="sign">
+          <button class="dropbtn m0">
+            <i class="las la-bell"></i>
+            <span class="notification"></span>
           </button>
          </a>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            <i class="las la-user icon"></i>
+            <span>my account<i class="las la-angle-down arrow-down-dropdown"></i> </span>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">my account</a>
+            <a href="#">log out</a>
+          </div>
+        </div>
         
         <a href="add-adv-en.html" class="link-adv-btn">
         <button class="add-adv-btn"><i class="las la-plus"></i> add adv</button>
@@ -178,173 +189,79 @@
     <!--content-section -->
     <div class="container">
       <!-- breadcrumb section -->
-   <div class="breadcrumb-sec breadcrumb-container">
-   
-     
-    <ol class="breadcrumb">
-      <li class="item-home">
-        <a class="bread-link bread-home aFixx" href="index.html">home</a>
-      </li>
-   
-      <li class="active item-23">
-        <span class="bread-current">aregister</span>
-      </li>
-    </ol>
+ <div class="breadcrumb-sec breadcrumb-container">
  
+   
+  <ol class="breadcrumb">
+    <li class="item-home">
+      <a class="bread-link bread-home aFixx" href="index.html">home</a>
+    </li>
+   
+ 
+    <li class="active item-23">
+      <span class="bread-current">add advertisement </span>
+    </li>
+  </ol>
+
 </div>
 
 
- <!-- end breadcrumb section -->
-
- <div class="add-adv-block">
- 
-  <div class="add-adv-form">
-<h2 class="form-title">
- register
-</h2>
-<form>
-  <label class="form-label extra-label-margin-2">membership type</label>
-  <div class="checkbox-section mb15">
-    <div class="radio-button-block first-checkbox-block">
-     
-      <div class="checkbox">
-        <input type="radio" id="owner" name="type" value="owner" checked>
-        <label for="owner"> owner</label>
-        </div>
-        <div class="checkbox">
-          <input type="radio" id="searcher"  name="type" value="researcher for a building">
-        <label for="searcher"> researcher for a building</label>
-        </div>
-        
-        <div class="checkbox">
-          <input type="radio" id="semsar"  name="type" value="real state broker">
-        <label for="semsar"> real state broker</label>
-        </div>
-
-        <div class="checkbox">
-          <input type="radio" id="company"  name="type" value="real state development company">
-        <label for="company"> real state development company</label>
-        </div>
-
-     
-
-     
-
-     
-    </div>
-
-    <div class="radio-button-block second-checkbox-block">
-      <div class="checkbox">
-        <input type="radio" id="wakeel"  name="type" value="agent or delegate">
-      <label for="wakeel"> agent or delegate</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="radio" id="sales"  name="type" value="real estate marketer">
-      <label for="sales"> real estate marketer</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="radio" id="office"  name="type" value="real state office">
-      <label for="office"> real state office</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="radio" id="rate"  name="type" value="real state rating company">
-      <label for="rate"> real state rating company</label>
-      </div>
-
-    
-
-    
-     
-    </div>
+<!-- end breadcrumb section -->
 
 
-  </div>
 
-  <label class="form-label">username<span class="label-span">"english only" </span></label>
-  <input type="text">
-
-  <label class="form-label">full name</label>
-  <input type="text">
-  <label class="form-label">mobile number</label>
- 
-  <div class="map-input">
-    <input type="text" class="price-input"  placeholder="5xxxxxxxx">
-   <span class="country">
-    +966
-    <img src="images/flag-ar.png" alt="flag">
-    </span>
-  </div>
-
-  <label class="form-label">email</label>
-  <input type="email">
-
-  <label class="form-label">country</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>choose from list</option>
-      <option>choose from list</option>
-      <option>choose from list</option>
-      <option>choose from list</option>
-    </select>
-
-  </div>
-
-  <label class="form-label">city</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>choose from list</option>
-      <option>choose from list</option>
-      <option>choose from list</option>
-      <option>choose from list</option>
-    </select>
-
-  </div>
-
-  <label class="form-label">password</label>
-  <div class="map-input">
-    <input type="password" class="my-input">
-   <button>
-    <i class="las la-eye"></i>
-    </button>
-  </div>
-
-  <label class="form-label">confirm password</label>
-  <div class="map-input">
-    <input type="password" class="my-input">
-   <button>
-    <i class="las la-eye"></i>
-    </button>
-  </div>
-
-  <label class="form-label">personal brief</label>
-  <textarea></textarea>
+  <!-- terms-section -->
   
-  <div class="checkbox checkbox-block">
-    <input type="checkbox"  name="" value="">
-    <label for="accept" class="accept"> I have read and agree to <a href="terms-and-conditions-en.html">terms & conditions</a></label>
+<div class="terms-section">
+  <h2 class="form-title mb20">
+    Conditions for adding the advertisement
+    </h2>
+<span class="note">
+  Violating the conditions of the real estate marketer exposes you to suspension without prior notice
+</span>
+ <ul class="terms-list">
+  <li>
+    The advertiser acknowledges the eligibility and legal capacity to advertise.
+  </li>
+  <li>
+    Attach real pictures of the property and not models or plans.
+  </li>
+  <li>
+    Accuracy in determining the location and writing the advertisement details and information.
+
+  </li>
+  <li>
+    Determining the price is obligatory, and it is not allowed to place a fee.
+  </li>
+  <li>
+    Not repeating the advertisement and just updating.
+  </li>
+  <li>
+    The advertisement must be closed immediately after renting or selling the property.
+  </li>
+  <li>
+    Conformity of the advertisement with the internal provisions and regulations, and the advertiser's full responsibility for that.
+  </li>
+  <li>
+    The advertiser undertakes that he works as an independent marketer or real estate office and that he is not affiliated with or an employee of any real estate company or real estate developer, and acknowledges that he bears all responsibilities if it appears otherwise.
+  </li>
+ </ul>
+
+ <div class="checkbox checkbox-block mb27">
+  <input type="checkbox"  name="" value="">
+  <label for="accept" class="accept"> I have read <a href="terms-and-conditions.html">Terms & Conditions</a></label>
+</div>
+
+<button class="accept-btn">
+  I undertake and agree to the terms
+</button>
+          
+</div>
+  <!-- terms-section -->
+
+
+
   </div>
-
-
-
-
- 
-
- 
-
-
-
- 
-
-  <button type="submit" class="submit-adv">register</button>
-
-</form>
-  </div>
- 
- </div>
-   </div>
    
     <!-- content-section -->
    
@@ -358,7 +275,7 @@
         <div class="footer-cont">
           <div class="row">
             <div class="col-md-4 col-sm-12 col-xs-12">
-              <a href="#">
+              <a href="index-en.html">
                 <figure>
                   <img src="images/logo.png" alt="logo">
                 </figure>
@@ -392,7 +309,7 @@
                       <a href="#" class="nav-foot-link">about us</a>
                     </li>
                     <li class="nav-foot-li">
-                      <a href="terms-and-conditions-en.html" class="nav-foot-link">Terms & Conditions</a>
+                      <a href="terms-and-conditions-en.html" class="nav-foot-link">terms & conditions</a>
                     </li>
                     <li class="nav-foot-li">
                       <a href="#" class="nav-foot-link">faq</a>
@@ -505,7 +422,7 @@ design and development by
      <!-- mobile show icons -->
      <div class="mobile-show-icons fixed-bottom">
       <div class="container">
-        <ul class="mobile-icons">
+        <ul class="mobile-icons mobile-icons-2">
           <li>
             <a href="add-adv-en.html" class="link-adv-btn">
               <button class="add-adv-btn"><i class="las la-plus"></i> add adv</button>
@@ -513,10 +430,20 @@ design and development by
           </li>
 
           <li>
+            <a href="#" class="sign">
+              <button class="dropbtn m0">
+                <i class="las la-bell"></i>
+                <span class="notification"></span>
+                <p>notifications</p>
+              </button>
+             </a>
+          </li>
+
+          <li>
            <a href="sign-in-en.html" class="sign">
             <button class="dropbtn">
               <i class="las la-user icon"></i>
-              <span>sign in</span>
+              <span>my account</span>
             </button>
            </a>
               
@@ -539,7 +466,7 @@ design and development by
               </span>
               <span class="search-span">search</span>
             </a>
-         
+           
            
         
             </div>
